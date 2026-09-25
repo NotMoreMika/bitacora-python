@@ -1,0 +1,3 @@
+# Respuesta
+
+Crearia una funcion que reciba esa lista, entonces tomaria el primer valor y lo guardaria en una variable mas_grande, luego compararia el valor de esa variable con el segundo valor de la lista. Si es mayor actualizo el valor de la variable y avanzo al siguiente valor de la lista para comparar a ver si es mayor que el nuevo valor, sino es asi continuo al siguiente valor de la lista. Asi se repetiria el proceso hasta que se acabe la lista. Entonce regresaria el valor de la variable mas_grande.
