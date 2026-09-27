@@ -1,0 +1,1 @@
+La diferencia entre "25" y 25 radica en el tipo de valor el tipo, el primero es de tipo string y el segundo es de tipo integer o sea un numero. Esta diferencia afecta el tipo de operaciones que se pueden hacer con estos valores, ejemplo operaciones aritmeticas, de logica etc.
