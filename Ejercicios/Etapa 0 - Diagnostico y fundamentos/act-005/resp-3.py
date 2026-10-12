@@ -2,11 +2,9 @@ def analizar_lista(lista_numeros):
 
     if len(lista_numeros) == 0:
         return print("La lista esta vacia")
-    if len(lista_numeros) == 1:
-            return print("La lista tiene que tener mas de 1 numero")
 
     mayor = lista_numeros[0]
-    menor = lista_numeros[1]
+    menor = lista_numeros[0]
     veces_mayor = {}
     pos_mayor = 0
 
@@ -30,11 +28,8 @@ def analizar_lista(lista_numeros):
         if numero < menor:
             menor = numero
 
-    if mayor == menor:
-        print("Todos los numeros de la lista son iguales")
-    else:
-        print(f"El mayor valor es {mayor} aparece en la posicion {pos_mayor} y se repite {veces_mayor[mayor]}")
-        print(f"El menor numero es {menor}")
+    print(f"El mayor valor es {mayor} aparece en la posicion {pos_mayor} y se repite {veces_mayor[mayor]}")
+    print(f"El menor numero es {menor}")
 
 
 lista1 = [8, 15, 3, 20, 11]

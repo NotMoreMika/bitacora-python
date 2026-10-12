@@ -1,7 +1,10 @@
 def encontrar_segundo(lista_numeros):
 
-    if len(lista_numeros) <= 1:
-        return print("La lista no puede estar vacia o tener un solo elemento")
+    if len(lista_numeros) == 0:
+        return print("La lista no puede estar vacia")
+
+    if len(lista_numeros) == 1:
+        return print("La lista solo tiene un elemento por tanto no existe un segundo mayor")
 
     mayor = lista_numeros[0]
     segundo_mayor = lista_numeros[1]
@@ -22,7 +25,7 @@ def encontrar_segundo(lista_numeros):
 
 
     if mayor == segundo_mayor:
-        print("Los elementos de la lista son iguales")
+        print("Los elementos de la lista son iguales por tanto no hay un segundo mayor")
     else:
         print(f"El segundo mayor es: {segundo_mayor}")
 

@@ -1,6 +1,6 @@
 def analizar_lista(lista_numeros):
-    if len(lista_numeros) <= 1:
-        return print("La lista no puede estar vacia o tener 1 elemento")
+    if len(lista_numeros) == 0:
+        return print("La lista no puede estar vacia")
 
     cant_numero = len(lista_numeros)
     suma_total = 0
@@ -9,19 +9,15 @@ def analizar_lista(lista_numeros):
     impares = 0
 
     mayor = lista_numeros[0]
-    menor = lista_numeros[1]
-
-    if mayor < menor:
-        mayor = lista_numeros[1]
-        menor = lista_numeros[0]
+    menor = lista_numeros[0]
 
     for numero in lista_numeros:
 
         suma_total += numero
 
-        if numero % 2 == 0 and numero != 0:
+        if numero % 2 == 0:
             pares += 1
-        elif numero % 2 == 1 and numero !=0:
+        elif numero % 2 == 1:
             impares += 1
 
         if numero > mayor:
