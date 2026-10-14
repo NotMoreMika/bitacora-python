@@ -2,6 +2,7 @@ import calculos
 import validaciones
 
 gasto1 = [3000, 750, 2300, 1500]
+gasto2 = []
 
 def main(gastos):
     gasto_promedio = 0
@@ -18,3 +19,4 @@ def main(gastos):
 
 if __name__ == "__main__":
     main(gasto1)
+    main(gasto2)
